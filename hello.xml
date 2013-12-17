@@ -1,0 +1,13 @@
+<service>
+  <id>hello</id>
+  <name>Hello</name>
+  <description>Hello Play app.</description>
+  <executable>%PLAY_HOME%\play.bat</executable>
+  <startargument>run</startargument>
+  <stopexecutable>%JAVA_HOME%\bin\java</stopexecutable>
+  <stopargument>-cp</stopargument>
+  <stopargument>.</stopargument>
+  <stopargument>ShutdownKick</stopargument>
+  <stopargument>http://127.0.0.1:9000/stop/SECRET</stopargument>
+  <logmode>rotate</logmode>
+</service>
