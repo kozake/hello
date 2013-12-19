@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
-GET     /stop/{id}                              Application.stop
+POST    /stop/                                  Application.stop
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

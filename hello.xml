@@ -8,6 +8,6 @@
   <stopargument>-cp</stopargument>
   <stopargument>.</stopargument>
   <stopargument>ShutdownKick</stopargument>
-  <stopargument>http://127.0.0.1:9000/stop/SECRET</stopargument>
+  <stopargument>SECRET</stopargument>
   <logmode>rotate</logmode>
 </service>
